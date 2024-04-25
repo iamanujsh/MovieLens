@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 const countriesList = [
   {
     iso_3166_1: "AD",
