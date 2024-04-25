@@ -8,7 +8,7 @@ import { GenresProvider } from "./contexts/genres.context.tsx";
 import { AdultProvider } from "./contexts/adult.context.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <BrowserRouter>
       <SearchProvider>
         <GenresProvider>
@@ -18,5 +18,5 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         </GenresProvider>
       </SearchProvider>
     </BrowserRouter>
-  </React.StrictMode>
+  {/* </React.StrictMode> */}
 );
